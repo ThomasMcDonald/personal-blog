@@ -5,6 +5,6 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   site: "https://thomasmcdonald.github.io",
-  base: import.meta.env.PROD ? "/personal-blog" : "/",
+  base: "/personal-blog",
   integrations: [mdx(), sitemap(), tailwind()],
 });
