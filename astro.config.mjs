@@ -4,7 +4,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: "https://thomasmcdonald.github.io",
-  base: "/personal-blog",
+  site: "https://thomasmcdonald.github.io/personal-blog",
+  base: "/",
   integrations: [mdx(), sitemap(), tailwind()],
 });
