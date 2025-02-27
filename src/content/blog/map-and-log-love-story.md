@@ -29,3 +29,6 @@ By using console.log(el) || Number(el), we take advantage of console.log returni
 This trick isn’t limited to .map()—you can use it with other array methods like .forEach(), .filter(), or even in conditional expressions anywhere in your code for quick, in-line debugging.
 
 Thanks for reading!
+
+
+p.s Just use the [Debugger](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger).
