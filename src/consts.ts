@@ -18,7 +18,7 @@ export const BLOG: Metadata = {
 
 export const SOCIALS: Socials = [
   {
-    NAME: "githubs",
+    NAME: "github",
     HREF: "https://github.com/ThomasMcDonald",
   },
   {
